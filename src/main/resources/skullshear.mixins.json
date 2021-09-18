@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "rip.fam.skullshear.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "PlayerDeathMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

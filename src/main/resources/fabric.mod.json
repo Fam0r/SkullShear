@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "skullshear",
+  "version": "${version}",
+
+  "name": "SkullShear",
+  "description": "Players drop their head when you kill them with shears",
+  "authors": [
+    "Fam0r"
+  ],
+  "contact": {
+    "homepage": "https://fam.rip/fabric",
+    "sources": "https://github.com/Fam0r/SkullShear"
+  },
+
+  "license": "WTFPL",
+
+  "environment": "*",
+  "mixins": [
+    "skullshear.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  }
+}
